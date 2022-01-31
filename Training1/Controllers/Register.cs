@@ -26,20 +26,20 @@ public class Register : Controller
 
         if (compare1 != null)
         {
-            ModelState.AddModelError("Username", "Kullanici bulunmaktadir");
+            ModelState.AddModelError("Username", "This user is exists");
         }
         var compare2 = _context.Registers.Where(i => i.Email == register.Email).FirstOrDefault();
 
         if (compare2 != null)
         {
-            ModelState.AddModelError("Email", "Kullanici bulunmaktadir");
+            ModelState.AddModelError("Email", "This user is exists");
         }
 
         var compare3 = _context.Registers.Where(i => i.IsAgreed == register.IsAgreed).FirstOrDefault();
 
         if (compare3.IsAgreed == false)
         {
-            ModelState.AddModelError("IsAgreed", "Lutfen kutuyu seciniz");
+            ModelState.AddModelError("IsAgreed", "Please check the box");
         }
 
         if (ModelState.IsValid)

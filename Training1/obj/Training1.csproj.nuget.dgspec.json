@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erkan\\Desktop\\New folder\\Training1\\Training1.csproj": {}
+    "/Users/oguzhanpolat/Downloads/Form app/Training1/Training1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erkan\\Desktop\\New folder\\Training1\\Training1.csproj": {
+    "/Users/oguzhanpolat/Downloads/Form app/Training1/Training1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erkan\\Desktop\\New folder\\Training1\\Training1.csproj",
+        "projectUniqueName": "/Users/oguzhanpolat/Downloads/Form app/Training1/Training1.csproj",
         "projectName": "Training1",
-        "projectPath": "C:\\Users\\erkan\\Desktop\\New folder\\Training1\\Training1.csproj",
-        "packagesPath": "C:\\Users\\erkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erkan\\Desktop\\New folder\\Training1\\obj\\",
+        "projectPath": "/Users/oguzhanpolat/Downloads/Form app/Training1/Training1.csproj",
+        "packagesPath": "/Users/oguzhanpolat/.nuget/packages/",
+        "outputPath": "/Users/oguzhanpolat/Downloads/Form app/Training1/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\erkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/oguzhanpolat/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
